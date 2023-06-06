@@ -1,6 +1,8 @@
 <?php
 namespace App\Services\Gateway\paypal;
 
+use App\Services\BasicCurl;
+use App\Services\BasicService;
 use Facades\App\Services\BasicCurl;
 use Facades\App\Services\BasicService;
 
@@ -43,7 +45,7 @@ class Payment
             }
         } else {
             $data['status'] = 'error';
-            $data['msg'] = 'unexpected error!';
+            $data['msg'] = 'unexpected error.!';
             $data['redirect'] = route('failed');
         }
         return $data;

@@ -27,7 +27,8 @@
         "pusher/pusher-php-server": "^4.1",
         "securionpay/securionpay-php": "^2.2.0",
         "stevebauman/purify": "^4.0",
-        "swiftmailer/swiftmailer": "^6.0"
+        "swiftmailer/swiftmailer": "^6.0",
+      "ext-json": "*"
     },
     "require-dev": {
         "authorizenet/authorizenet": "dev-master#ef297d3e2d7c1092ddabd2c376eb485aac1aa66c",
